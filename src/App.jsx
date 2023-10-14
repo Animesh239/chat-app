@@ -1,12 +1,19 @@
-import { useState } from 'react'
+import Hero from "./components/Hero"
+import Demo from "./components/Demo"
+import "./App.css"
 
 function App() {
 
   return (
-    <>
-      <h1>React App</h1>
-      <p>React App</p>
-    </>
+    <main>
+      <div className="main">
+        <div className="gradient" />
+      </div>
+      <div className="app">
+        <Hero />
+        <Demo />
+      </div>
+    </main>
   )
 }
 
